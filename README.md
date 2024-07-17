@@ -45,7 +45,7 @@ Power Hacks is a celebratory hackathon marking the completion of the February 20
 #### Prizes
 - Awards and recognition for top project.
 
-#### Registration
-- Registration can be completed online through the Power Hacks submission link that will be shared.
+#### Submission
+- Please submit your projects via this link: https://forms.gle/ZKmixmVXD6pz9eEQ6.
 
 Good luck to all participants! Let's harness the power of technology to create impactful solutions for education, healthcare, and current affairs.
