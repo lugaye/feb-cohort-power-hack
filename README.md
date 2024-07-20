@@ -1,51 +1,36 @@
-### Power Hacks: Hackathon Guide
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-#### Overview
-Power Hacks is a celebratory hackathon marking the completion of the February 2024 cohort. The event runs from July 9th to July 22nd, focusing on three main themes:
-1. **Level Up Learning**: Building innovative education tools for all (Ed Tech).
-2. **Building Solutions for Improved Healthcare Accessibility**: Health tech solutions.
-3. **Hack the Headlines**: Code for change, addressing current affairs in participating countries.
+## Getting Started
 
-#### Objectives
-- Foster innovative thinking and problem-solving among participants.
-- Encourage the development of solutions that address educational and healthcare challenges.
-- Promote awareness and solutions for current affairs through technology.
+First, run the development server:
 
-#### Hackathon Themes
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-1. **Level Up Learning: Building Innovative Education Tools for All (Ed Tech)**
-   - **Goal**: Create tools or platforms that enhance learning experiences, accessibility, and engagement for diverse learners.
-   - **Examples**: Interactive learning apps, AI tutors, virtual classrooms, educational games.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-2. **Building Solutions for Improved Healthcare Accessibility (Health Tech)**
-   - **Goal**: Develop technologies that improve access to healthcare services, streamline medical processes, or enhance patient care.
-   - **Examples**: Telemedicine platforms, health tracking apps, AI diagnostics, patient management systems.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-3. **Hack the Headlines: Code for Change**
-   - **Goal**: Address current social, economic, or political issues through innovative tech solutions.
-   - **Examples**: Fact-checking tools, platforms for civic engagement, disaster response systems, tools for enhancing public safety.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-#### Key Dates
-- **Hackathon Duration**: July 9th - July 22nd, 2024
+## Learn More
 
-#### Participants
-- Open to individuals from the february 2024 cohort.
+To learn more about Next.js, take a look at the following resources:
 
-#### Submission Requirements
-- Atleast a working prototype or a detailed proposal with proof of concept.
-- A presentation/pitch deck explaining the project, its impact, and future plans.
-- Repository link
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-#### Judging Criteria
-- **Innovation**: Originality and creativity of the solution.
-- **Impact**: Potential to make a significant positive impact in the chosen theme area.
-- **Technical Execution**: Quality and functionality of the prototype or solution.
-- **Presentation**: Clarity and persuasiveness of the project presentation.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-#### Prizes
-- Awards and recognition for top project.
+## Deploy on Vercel
 
-#### Submission
-- Please submit your projects via this link: https://forms.gle/ZKmixmVXD6pz9eEQ6.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Good luck to all participants! Let's harness the power of technology to create impactful solutions for education, healthcare, and current affairs.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
