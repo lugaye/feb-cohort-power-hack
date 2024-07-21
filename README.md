@@ -15,9 +15,7 @@ A healthcare patient management application that allows patients to easily regis
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack"> Tech Stack</a>
 
 - Next.js
 - Appwrite
@@ -26,29 +24,29 @@ If you're getting started and need assistance or face any bugs, join our active 
 - ShadCN
 - Twilio
 
-## <a name="features">🔋 Features</a>
+## <a name="features"> Features</a>
 
-👉 **Register as a Patient**: Users can sign up and create a personal profile as a patient.
+✔ **Register as a Patient**: Users can sign up and create a personal profile as a patient.
 
-👉 **Book a New Appointment with Doctor**: Patients can schedule appointments with doctors at their convenience and can book multiple appointments.
+✔ **Book a New Appointment with Doctor**: Patients can schedule appointments with doctors at their convenience and can book multiple appointments.
 
-👉 **Manage Appointments on Admin Side**: Administrators can efficiently view and handle all scheduled appointments.
+✔ **Manage Appointments on Admin Side**: Administrators can efficiently view and handle all scheduled appointments.
 
-👉 **Confirm/Schedule Appointment from Admin Side**: Admins can confirm and set appointment times to ensure they are properly scheduled.
+✔ **Confirm/Schedule Appointment from Admin Side**: Admins can confirm and set appointment times to ensure they are properly scheduled.
 
-👉 **Cancel Appointment from Admin Side**: Administrators have the ability to cancel any appointment as needed.
+✔ **Cancel Appointment from Admin Side**: Administrators have the ability to cancel any appointment as needed.
 
-👉 **Send SMS on Appointment Confirmation**: Patients receive SMS notifications to confirm their appointment details.
+✔ **Send SMS on Appointment Confirmation**: Patients receive SMS notifications to confirm their appointment details.
 
-👉 **Complete Responsiveness**: The application works seamlessly on all device types and screen sizes.
+✔ **Complete Responsiveness**: The application works seamlessly on all device types and screen sizes.
 
-👉 **File Upload Using Appwrite Storage**: Users can upload and store files securely within the app using Appwrite storage services.
+✔ **File Upload Using Appwrite Storage**: Users can upload and store files securely within the app using Appwrite storage services.
 
-👉 **Manage and Track Application Performance Using Sentry**: The application uses Sentry to monitor and track its performance and detect any errors.
+✔ **Manage and Track Application Performance Using Sentry**: The application uses Sentry to monitor and track its performance and detect any errors.
 
 and many more, including code architecture and reusability
 
-## <a name="quick-start">🤸 Quick Start</a>
+## <a name="quick-start"> Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
