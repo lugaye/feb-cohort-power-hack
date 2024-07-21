@@ -39,4 +39,4 @@ next-env.d.ts
 .env.sentry-build-plugin
 
 #readme file
-README.md
+.README.md
