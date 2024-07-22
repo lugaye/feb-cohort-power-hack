@@ -1,51 +1,127 @@
-### Power Hacks: Hackathon Guide
+<div align="center">
 
-#### Overview
-Power Hacks is a celebratory hackathon marking the completion of the February 2024 cohort. The event runs from July 9th to July 22nd, focusing on three main themes:
-1. **Level Up Learning**: Building innovative education tools for all (Ed Tech).
-2. **Building Solutions for Improved Healthcare Accessibility**: Health tech solutions.
-3. **Hack the Headlines**: Code for change, addressing current affairs in participating countries.
+  <h3 align="center">TumainiAfya - A HealthCare Management System</h3>
 
-#### Objectives
-- Foster innovative thinking and problem-solving among participants.
-- Encourage the development of solutions that address educational and healthcare challenges.
-- Promote awareness and solutions for current affairs through technology.
+</div>
 
-#### Hackathon Themes
+## <a name="introduction"> Introduction</a>
 
-1. **Level Up Learning: Building Innovative Education Tools for All (Ed Tech)**
-   - **Goal**: Create tools or platforms that enhance learning experiences, accessibility, and engagement for diverse learners.
-   - **Examples**: Interactive learning apps, AI tutors, virtual classrooms, educational games.
+A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.
 
-2. **Building Solutions for Improved Healthcare Accessibility (Health Tech)**
-   - **Goal**: Develop technologies that improve access to healthcare services, streamline medical processes, or enhance patient care.
-   - **Examples**: Telemedicine platforms, health tracking apps, AI diagnostics, patient management systems.
+**Live websitelink**: [TumainiAfya](https://tumainiafya-bryans-projects-caddbd6d.vercel.app/)
 
-3. **Hack the Headlines: Code for Change**
-   - **Goal**: Address current social, economic, or political issues through innovative tech solutions.
-   - **Examples**: Fact-checking tools, platforms for civic engagement, disaster response systems, tools for enhancing public safety.
+## <a name="tech-stack"> Tech Stack</a>
 
-#### Key Dates
-- **Hackathon Duration**: July 9th - July 22nd, 2024
+- Next.js
+- Appwrite - Open Source Firebase Alternative, implementing (Authentication, Database, Storage and Messaging)
+- Typescript
+- TailwindCSS
+- ShadCN
+- Twilio
 
-#### Participants
-- Open to individuals from the february 2024 cohort.
+## <a name="features"> Features</a>
 
-#### Submission Requirements
-- Atleast a working prototype or a detailed proposal with proof of concept.
-- A presentation/pitch deck explaining the project, its impact, and future plans.
-- Repository link
+✔ **Register as a Patient**: Users can sign up and create a personal profile as a patient.
 
-#### Judging Criteria
-- **Innovation**: Originality and creativity of the solution.
-- **Impact**: Potential to make a significant positive impact in the chosen theme area.
-- **Technical Execution**: Quality and functionality of the prototype or solution.
-- **Presentation**: Clarity and persuasiveness of the project presentation.
+✔ **Book a New Appointment with Doctor**: Patients can schedule appointments with doctors at their convenience and can book multiple appointments.
 
-#### Prizes
-- Awards and recognition for top project.
+✔ **Manage Appointments on Admin Side**: Administrators can efficiently view and handle all scheduled appointments.
 
-#### Submission
-- Please submit your projects via this link: https://forms.gle/ZKmixmVXD6pz9eEQ6.
+✔ **Confirm/Schedule Appointment from Admin Side**: Admins can confirm and set appointment times to ensure they are properly scheduled.
 
-Good luck to all participants! Let's harness the power of technology to create impactful solutions for education, healthcare, and current affairs.
+✔ **Cancel Appointment from Admin Side**: Administrators have the ability to cancel any appointment as needed.
+
+✔ **Send SMS on Appointment Confirmation**: Patients receive SMS notifications to confirm their appointment details.
+
+✔ **Complete Responsiveness**: The application works seamlessly on all device types and screen sizes.
+
+✔ **File Upload Using Appwrite Storage**: Users can upload and store files securely within the app using Appwrite storage services.
+
+✔ **Manage and Track Application Performance Using Sentry**: The application uses Sentry to monitor and track its performance and detect any errors.
+
+and many more, including code architecture and reusability
+
+## <a name="quick-start"> Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/Bryan-Giitwa/feb-cohort-power-hack.git
+cd feb-cohort-power-hack
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Set Up Environment Variables**
+
+Create a new file named `.env.local` in the root of your project and add the following content:
+
+```env
+#APPWRITE
+NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
+PROJECT_ID=
+API_KEY=
+DATABASE_ID=
+PATIENT_COLLECTION_ID=
+APPOINTMENT_COLLECTION_ID=
+NEXT_PUBLIC_BUCKET_ID=
+
+NEXT_PUBLIC_ADMIN_PASSKEY=111111
+```
+
+Replace the placeholder values with your actual Appwrite credentials. You can obtain these credentials by signing up on the [Appwrite website](https://appwrite.io/).
+
+**Running the Project**
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+## Database
+
+![alt text](image.png)
+
+## Database collections
+
+![alt text](image-1.png)
+
+**Appointments collection Attributes**
+
+![alt text](image-2.png)
+
+**Patient collection Attributes**
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+
+## Storage
+
+![alt text](image-6.png)
+
+**Just an example of how the storage looks like**
+
+![alt text](image-7.png)
+
+## Overview of a text message sent to a patient on appointment Schedule confirmation
+
+![alt text](image-9.png)
+![alt text](image-10.png)
