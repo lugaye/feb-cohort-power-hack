@@ -97,3 +97,29 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+**Database**
+![alt text](image.png)
+
+- collections
+
+![alt text](image-1.png)
+
+-Appointments Attributes
+![alt text](image-2.png)
+
+-Patient Attributes
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+
+**Storage**
+![alt text](image-6.png)
+
+- Just an example of how the storage looks like
+
+![alt text](image-7.png)
+
+## Overview of a text message sent to a patient
+
+![alt text](image-8.png)
