@@ -127,4 +127,4 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 ## Overview of a text message sent to a patient on appointment Schedule confirmation
 
 ![alt text](image-9.png)
-![alt text](image-8.png)
+![alt text](image-10.png)
