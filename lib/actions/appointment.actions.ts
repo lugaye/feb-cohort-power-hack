@@ -134,7 +134,7 @@ export const updateAppointment = async ({
 
     if (!updatedAppointment) throw Error;
 
-    const smsMessage = `Greetings from CarePulse. ${type === "schedule" ? `Your appointment is confirmed for ${formatDateTime(appointment.schedule!).dateTime} with Dr. ${appointment.primaryPhysician}` : `We regret to inform that your appointment for ${formatDateTime(appointment.schedule!).dateTime} is cancelled. Reason:  ${appointment.cancellationReason}`}.`;
+    const smsMessage = `Greetings from TumainiAfya. ${type === "schedule" ? `Your appointment is confirmed for ${formatDateTime(appointment.schedule!).dateTime} with Dr. ${appointment.primaryPhysician}` : `We regret to inform that your appointment for ${formatDateTime(appointment.schedule!).dateTime} is cancelled for the following Reason:  ${appointment.cancellationReason}`}.`;
     await sendSMSNotification(userId, smsMessage);
 
     revalidatePath("/admin");
